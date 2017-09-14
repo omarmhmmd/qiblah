@@ -1,0 +1,1362 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'lsm303' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData lsm303
+8 silly fetchNamedPackageData lsm303
+9 silly mapToRegistry name lsm303
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'lsm303',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'lsm303',
+12 silly mapToRegistry   name: 'lsm303',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/lsm303
+14 verbose request uri https://registry.npmjs.org/lsm303
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:56:23 PM
+17 verbose request id e03a68d0a1dd93ae
+18 http request GET https://registry.npmjs.org/lsm303
+19 http 200 https://registry.npmjs.org/lsm303
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Tue, 09 May 2017 07:08:32 GMT',
+20 verbose headers   etag: 'W/"59116af0-16be"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '1614',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Tue, 12 Sep 2017 03:56:24 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-pao17440-PAO',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1505188584.222095,VS0,VE160',
+20 verbose headers   vary: 'Accept-Encoding, Accept' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Tue, 09 May 2017 07:08:32 GMT',
+21 silly get     etag: 'W/"59116af0-16be"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '1614',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Tue, 12 Sep 2017 03:56:24 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-pao17440-PAO',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1505188584.222095,VS0,VE160',
+21 silly get     vary: 'Accept-Encoding, Accept' } ]
+22 verbose get saving lsm303 to /Users/omarmhmmd/.npm/registry.npmjs.org/lsm303/.cache.json
+23 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule lsm303@0.3.0 checking installable status
+37 silly cache add args [ 'lsm303', null ]
+38 verbose cache add spec lsm303
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'lsm303',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'lsm303',
+39 silly cache add   name: 'lsm303',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed lsm303@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for lsm303
+42 info addNameTag [ 'lsm303', 'latest' ]
+43 silly mapToRegistry name lsm303
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'lsm303',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'lsm303',
+46 silly mapToRegistry   name: 'lsm303',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/lsm303
+48 verbose addNameTag registry:https://registry.npmjs.org/lsm303 not in flight; fetching
+49 verbose get https://registry.npmjs.org/lsm303 not expired, no request
+50 silly addNameTag next cb for lsm303 with tag latest
+51 silly addNamed lsm303@0.3.0
+52 verbose addNamed "0.3.0" is a plain semver version for lsm303
+53 silly mapToRegistry name lsm303
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'lsm303',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'lsm303',
+56 silly mapToRegistry   name: 'lsm303',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/lsm303
+58 verbose addRemoteTarball https://registry.npmjs.org/lsm303/-/lsm303-0.3.0.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/lsm303/-/lsm303-0.3.0.tgz',
+59 verbose addRemoteTarball   '34b33c094944c5a13bd020e1409fae5aeb48a9c3' ]
+60 info retry fetch attempt 1 at 8:56:24 PM
+61 info attempt registry request try #1 at 8:56:24 PM
+62 http fetch GET https://registry.npmjs.org/lsm303/-/lsm303-0.3.0.tgz
+63 http fetch 200 https://registry.npmjs.org/lsm303/-/lsm303-0.3.0.tgz
+64 silly fetchAndShaCheck shasum 34b33c094944c5a13bd020e1409fae5aeb48a9c3
+65 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/lsm303/-/lsm303-0.3.0.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for lsm303@0.3.0
+67 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd lsm303@0.3.0
+69 verbose afterAdd /Users/omarmhmmd/.npm/lsm303/0.3.0/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/omarmhmmd/.npm/lsm303/0.3.0/package/package.json written
+72 silly fetchNamedPackageData i2c
+73 silly mapToRegistry name i2c
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'i2c',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'i2c',
+76 silly mapToRegistry   name: 'i2c',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/i2c
+78 verbose request uri https://registry.npmjs.org/i2c
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 8:56:24 PM
+81 http request GET https://registry.npmjs.org/i2c
+82 http 200 https://registry.npmjs.org/i2c
+83 verbose headers { server: 'nginx/1.10.3',
+83 verbose headers   'content-type': 'application/json',
+83 verbose headers   'last-modified': 'Fri, 16 Jun 2017 13:05:25 GMT',
+83 verbose headers   etag: 'W/"5943d795-42c1"',
+83 verbose headers   'content-encoding': 'gzip',
+83 verbose headers   'cache-control': 'max-age=300',
+83 verbose headers   'content-length': '3073',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   age: '0',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'x-served-by': 'cache-pao17440-PAO',
+83 verbose headers   'x-cache': 'MISS',
+83 verbose headers   'x-cache-hits': '0',
+83 verbose headers   'x-timer': 'S1505188585.972455,VS0,VE102',
+83 verbose headers   vary: 'Accept-Encoding, Accept' }
+84 silly get cb [ 200,
+84 silly get   { server: 'nginx/1.10.3',
+84 silly get     'content-type': 'application/json',
+84 silly get     'last-modified': 'Fri, 16 Jun 2017 13:05:25 GMT',
+84 silly get     etag: 'W/"5943d795-42c1"',
+84 silly get     'content-encoding': 'gzip',
+84 silly get     'cache-control': 'max-age=300',
+84 silly get     'content-length': '3073',
+84 silly get     'accept-ranges': 'bytes',
+84 silly get     date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+84 silly get     via: '1.1 varnish',
+84 silly get     age: '0',
+84 silly get     connection: 'keep-alive',
+84 silly get     'x-served-by': 'cache-pao17440-PAO',
+84 silly get     'x-cache': 'MISS',
+84 silly get     'x-cache-hits': '0',
+84 silly get     'x-timer': 'S1505188585.972455,VS0,VE102',
+84 silly get     vary: 'Accept-Encoding, Accept' } ]
+85 verbose get saving i2c to /Users/omarmhmmd/.npm/registry.npmjs.org/i2c/.cache.json
+86 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+87 silly resolveWithNewModule i2c@0.2.3 checking installable status
+88 silly cache add args [ 'i2c@^0.2.3', null ]
+89 verbose cache add spec i2c@^0.2.3
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'i2c@^0.2.3',
+90 silly cache add   scope: null,
+90 silly cache add   escapedName: 'i2c',
+90 silly cache add   name: 'i2c',
+90 silly cache add   rawSpec: '^0.2.3',
+90 silly cache add   spec: '>=0.2.3 <0.3.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed i2c@>=0.2.3 <0.3.0
+92 verbose addNamed ">=0.2.3 <0.3.0" is a valid semver range for i2c
+93 silly addNameRange { name: 'i2c', range: '>=0.2.3 <0.3.0', hasData: false }
+94 silly mapToRegistry name i2c
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'i2c',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   escapedName: 'i2c',
+97 silly mapToRegistry   name: 'i2c',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/i2c
+99 verbose addNameRange registry:https://registry.npmjs.org/i2c not in flight; fetching
+100 verbose get https://registry.npmjs.org/i2c not expired, no request
+101 silly addNameRange number 2 { name: 'i2c', range: '>=0.2.3 <0.3.0', hasData: true }
+102 silly addNameRange versions [ 'i2c',
+102 silly addNameRange   [ '0.0.1',
+102 silly addNameRange     '0.0.2',
+102 silly addNameRange     '0.0.3',
+102 silly addNameRange     '0.0.4',
+102 silly addNameRange     '0.0.5',
+102 silly addNameRange     '0.1.0',
+102 silly addNameRange     '0.1.1',
+102 silly addNameRange     '0.1.2',
+102 silly addNameRange     '0.1.3',
+102 silly addNameRange     '0.1.4',
+102 silly addNameRange     '0.1.5',
+102 silly addNameRange     '0.1.6',
+102 silly addNameRange     '0.1.7',
+102 silly addNameRange     '0.1.8',
+102 silly addNameRange     '0.2.0',
+102 silly addNameRange     '0.2.1',
+102 silly addNameRange     '0.2.3' ] ]
+103 silly addNamed i2c@0.2.3
+104 verbose addNamed "0.2.3" is a plain semver version for i2c
+105 silly mapToRegistry name i2c
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'i2c',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'i2c',
+108 silly mapToRegistry   name: 'i2c',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/i2c
+110 verbose addRemoteTarball https://registry.npmjs.org/i2c/-/i2c-0.2.3.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/i2c/-/i2c-0.2.3.tgz',
+111 verbose addRemoteTarball   'f43f7028141026ae48af2990a374633d1dab3d2b' ]
+112 info retry fetch attempt 1 at 8:56:25 PM
+113 info attempt registry request try #1 at 8:56:25 PM
+114 http fetch GET https://registry.npmjs.org/i2c/-/i2c-0.2.3.tgz
+115 http fetch 200 https://registry.npmjs.org/i2c/-/i2c-0.2.3.tgz
+116 silly fetchAndShaCheck shasum f43f7028141026ae48af2990a374633d1dab3d2b
+117 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/i2c/-/i2c-0.2.3.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for i2c@0.2.3
+119 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+120 silly cache afterAdd i2c@0.2.3
+121 verbose afterAdd /Users/omarmhmmd/.npm/i2c/0.2.3/package/package.json not in flight; writing
+122 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+123 verbose afterAdd /Users/omarmhmmd/.npm/i2c/0.2.3/package/package.json written
+124 silly fetchNamedPackageData bindings
+125 silly mapToRegistry name bindings
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'bindings',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'bindings',
+128 silly mapToRegistry   name: 'bindings',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/bindings
+130 silly fetchNamedPackageData underscore
+131 silly mapToRegistry name underscore
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry data Result {
+134 silly mapToRegistry   raw: 'underscore',
+134 silly mapToRegistry   scope: null,
+134 silly mapToRegistry   escapedName: 'underscore',
+134 silly mapToRegistry   name: 'underscore',
+134 silly mapToRegistry   rawSpec: '',
+134 silly mapToRegistry   spec: 'latest',
+134 silly mapToRegistry   type: 'tag' }
+135 silly mapToRegistry uri https://registry.npmjs.org/underscore
+136 silly fetchNamedPackageData coffee-script
+137 silly mapToRegistry name coffee-script
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'coffee-script',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'coffee-script',
+140 silly mapToRegistry   name: 'coffee-script',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+142 silly fetchNamedPackageData repl
+143 silly mapToRegistry name repl
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'repl',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   escapedName: 'repl',
+146 silly mapToRegistry   name: 'repl',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri https://registry.npmjs.org/repl
+148 silly fetchNamedPackageData nan
+149 silly mapToRegistry name nan
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry data Result {
+152 silly mapToRegistry   raw: 'nan',
+152 silly mapToRegistry   scope: null,
+152 silly mapToRegistry   escapedName: 'nan',
+152 silly mapToRegistry   name: 'nan',
+152 silly mapToRegistry   rawSpec: '',
+152 silly mapToRegistry   spec: 'latest',
+152 silly mapToRegistry   type: 'tag' }
+153 silly mapToRegistry uri https://registry.npmjs.org/nan
+154 verbose request uri https://registry.npmjs.org/underscore
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 8:56:25 PM
+157 http request GET https://registry.npmjs.org/underscore
+158 verbose request uri https://registry.npmjs.org/coffee-script
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 8:56:25 PM
+161 http request GET https://registry.npmjs.org/coffee-script
+162 verbose request uri https://registry.npmjs.org/repl
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 8:56:25 PM
+165 http request GET https://registry.npmjs.org/repl
+166 verbose request uri https://registry.npmjs.org/nan
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 8:56:25 PM
+169 verbose etag W/"59a60a0b-20228"
+170 verbose lastModified Wed, 30 Aug 2017 00:42:51 GMT
+171 http request GET https://registry.npmjs.org/nan
+172 verbose request uri https://registry.npmjs.org/bindings
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 8:56:25 PM
+175 verbose etag W/"59b28ad4-4c18"
+176 verbose lastModified Fri, 08 Sep 2017 12:19:32 GMT
+177 http request GET https://registry.npmjs.org/bindings
+178 http 200 https://registry.npmjs.org/coffee-script
+179 verbose headers { server: 'nginx/1.10.1',
+179 verbose headers   'content-type': 'application/json',
+179 verbose headers   'last-modified': 'Mon, 04 Sep 2017 01:46:02 GMT',
+179 verbose headers   etag: 'W/"59acb05a-e72f"',
+179 verbose headers   'content-encoding': 'gzip',
+179 verbose headers   'cache-control': 'max-age=300',
+179 verbose headers   'content-length': '8292',
+179 verbose headers   'accept-ranges': 'bytes',
+179 verbose headers   date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+179 verbose headers   via: '1.1 varnish',
+179 verbose headers   age: '188',
+179 verbose headers   connection: 'keep-alive',
+179 verbose headers   'x-served-by': 'cache-pao17433-PAO',
+179 verbose headers   'x-cache': 'HIT',
+179 verbose headers   'x-cache-hits': '1',
+179 verbose headers   'x-timer': 'S1505188586.674212,VS0,VE0',
+179 verbose headers   vary: 'Accept-Encoding, Accept' }
+180 silly get cb [ 200,
+180 silly get   { server: 'nginx/1.10.1',
+180 silly get     'content-type': 'application/json',
+180 silly get     'last-modified': 'Mon, 04 Sep 2017 01:46:02 GMT',
+180 silly get     etag: 'W/"59acb05a-e72f"',
+180 silly get     'content-encoding': 'gzip',
+180 silly get     'cache-control': 'max-age=300',
+180 silly get     'content-length': '8292',
+180 silly get     'accept-ranges': 'bytes',
+180 silly get     date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+180 silly get     via: '1.1 varnish',
+180 silly get     age: '188',
+180 silly get     connection: 'keep-alive',
+180 silly get     'x-served-by': 'cache-pao17433-PAO',
+180 silly get     'x-cache': 'HIT',
+180 silly get     'x-cache-hits': '1',
+180 silly get     'x-timer': 'S1505188586.674212,VS0,VE0',
+180 silly get     vary: 'Accept-Encoding, Accept' } ]
+181 verbose get saving coffee-script to /Users/omarmhmmd/.npm/registry.npmjs.org/coffee-script/.cache.json
+182 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+183 http 304 https://registry.npmjs.org/nan
+184 verbose headers { date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+184 verbose headers   via: '1.1 varnish',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   etag: 'W/"59a60a0b-20228"',
+184 verbose headers   age: '9',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'x-served-by': 'cache-pao17438-PAO',
+184 verbose headers   'x-cache': 'HIT',
+184 verbose headers   'x-cache-hits': '1',
+184 verbose headers   'x-timer': 'S1505188586.679119,VS0,VE0',
+184 verbose headers   vary: 'Accept-Encoding, Accept' }
+185 silly get cb [ 304,
+185 silly get   { date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     etag: 'W/"59a60a0b-20228"',
+185 silly get     age: '9',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-pao17438-PAO',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '1',
+185 silly get     'x-timer': 'S1505188586.679119,VS0,VE0',
+185 silly get     vary: 'Accept-Encoding, Accept' } ]
+186 verbose etag https://registry.npmjs.org/nan from cache
+187 verbose get saving nan to /Users/omarmhmmd/.npm/registry.npmjs.org/nan/.cache.json
+188 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+189 http 304 https://registry.npmjs.org/bindings
+190 verbose headers { date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   etag: 'W/"59b28ad4-4c18"',
+190 verbose headers   age: '186',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-pao17447-PAO',
+190 verbose headers   'x-cache': 'HIT',
+190 verbose headers   'x-cache-hits': '1',
+190 verbose headers   'x-timer': 'S1505188586.684975,VS0,VE0',
+190 verbose headers   vary: 'Accept-Encoding, Accept' }
+191 silly get cb [ 304,
+191 silly get   { date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     etag: 'W/"59b28ad4-4c18"',
+191 silly get     age: '186',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-pao17447-PAO',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '1',
+191 silly get     'x-timer': 'S1505188586.684975,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding, Accept' } ]
+192 verbose etag https://registry.npmjs.org/bindings from cache
+193 verbose get saving bindings to /Users/omarmhmmd/.npm/registry.npmjs.org/bindings/.cache.json
+194 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+195 silly resolveWithNewModule coffee-script@1.9.1 checking installable status
+196 silly cache add args [ 'coffee-script@1.9.1', null ]
+197 verbose cache add spec coffee-script@1.9.1
+198 silly cache add parsed spec Result {
+198 silly cache add   raw: 'coffee-script@1.9.1',
+198 silly cache add   scope: null,
+198 silly cache add   escapedName: 'coffee-script',
+198 silly cache add   name: 'coffee-script',
+198 silly cache add   rawSpec: '1.9.1',
+198 silly cache add   spec: '1.9.1',
+198 silly cache add   type: 'version' }
+199 silly addNamed coffee-script@1.9.1
+200 verbose addNamed "1.9.1" is a plain semver version for coffee-script
+201 silly mapToRegistry name coffee-script
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'coffee-script',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   escapedName: 'coffee-script',
+204 silly mapToRegistry   name: 'coffee-script',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+206 verbose addNameVersion registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+207 silly resolveWithNewModule nan@2.3.5 checking installable status
+208 silly cache add args [ 'nan@~2.3.5', null ]
+209 verbose cache add spec nan@~2.3.5
+210 silly cache add parsed spec Result {
+210 silly cache add   raw: 'nan@~2.3.5',
+210 silly cache add   scope: null,
+210 silly cache add   escapedName: 'nan',
+210 silly cache add   name: 'nan',
+210 silly cache add   rawSpec: '~2.3.5',
+210 silly cache add   spec: '>=2.3.5 <2.4.0',
+210 silly cache add   type: 'range' }
+211 silly addNamed nan@>=2.3.5 <2.4.0
+212 verbose addNamed ">=2.3.5 <2.4.0" is a valid semver range for nan
+213 silly addNameRange { name: 'nan', range: '>=2.3.5 <2.4.0', hasData: false }
+214 silly mapToRegistry name nan
+215 silly mapToRegistry using default registry
+216 silly mapToRegistry registry https://registry.npmjs.org/
+217 silly mapToRegistry data Result {
+217 silly mapToRegistry   raw: 'nan',
+217 silly mapToRegistry   scope: null,
+217 silly mapToRegistry   escapedName: 'nan',
+217 silly mapToRegistry   name: 'nan',
+217 silly mapToRegistry   rawSpec: '',
+217 silly mapToRegistry   spec: 'latest',
+217 silly mapToRegistry   type: 'tag' }
+218 silly mapToRegistry uri https://registry.npmjs.org/nan
+219 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+220 verbose get https://registry.npmjs.org/coffee-script not expired, no request
+221 silly mapToRegistry name coffee-script
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry data Result {
+224 silly mapToRegistry   raw: 'coffee-script',
+224 silly mapToRegistry   scope: null,
+224 silly mapToRegistry   escapedName: 'coffee-script',
+224 silly mapToRegistry   name: 'coffee-script',
+224 silly mapToRegistry   rawSpec: '',
+224 silly mapToRegistry   spec: 'latest',
+224 silly mapToRegistry   type: 'tag' }
+225 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+226 verbose addRemoteTarball https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.1.tgz not in flight; adding
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.1.tgz',
+227 verbose addRemoteTarball   'c458d02200f460d064a79cb6ab1ee6e2c9ca1c31' ]
+228 verbose get https://registry.npmjs.org/nan not expired, no request
+229 silly addNameRange number 2 { name: 'nan', range: '>=2.3.5 <2.4.0', hasData: true }
+230 silly addNameRange versions [ 'nan',
+230 silly addNameRange   [ '0.3.0-wip',
+230 silly addNameRange     '0.3.0-wip2',
+230 silly addNameRange     '0.3.0',
+230 silly addNameRange     '0.3.1',
+230 silly addNameRange     '0.3.2',
+230 silly addNameRange     '0.4.0',
+230 silly addNameRange     '0.4.1',
+230 silly addNameRange     '0.4.2',
+230 silly addNameRange     '0.4.3',
+230 silly addNameRange     '0.4.4',
+230 silly addNameRange     '0.5.0',
+230 silly addNameRange     '0.5.1',
+230 silly addNameRange     '0.5.2',
+230 silly addNameRange     '0.6.0',
+230 silly addNameRange     '0.7.0',
+230 silly addNameRange     '0.7.1',
+230 silly addNameRange     '0.8.0',
+230 silly addNameRange     '1.0.0',
+230 silly addNameRange     '1.1.0',
+230 silly addNameRange     '1.1.1',
+230 silly addNameRange     '1.1.2',
+230 silly addNameRange     '1.2.0',
+230 silly addNameRange     '1.3.0',
+230 silly addNameRange     '1.4.0',
+230 silly addNameRange     '1.4.1',
+230 silly addNameRange     '1.5.0',
+230 silly addNameRange     '1.4.2',
+230 silly addNameRange     '1.4.3',
+230 silly addNameRange     '1.5.1',
+230 silly addNameRange     '1.5.2',
+230 silly addNameRange     '1.6.0',
+230 silly addNameRange     '1.5.3',
+230 silly addNameRange     '1.6.1',
+230 silly addNameRange     '1.6.2',
+230 silly addNameRange     '1.7.0',
+230 silly addNameRange     '1.8.0',
+230 silly addNameRange     '1.8.1',
+230 silly addNameRange     '1.8.2',
+230 silly addNameRange     '1.8.3',
+230 silly addNameRange     '1.8.4',
+230 silly addNameRange     '1.9.0',
+230 silly addNameRange     '2.0.0',
+230 silly addNameRange     '2.0.1',
+230 silly addNameRange     '2.0.2',
+230 silly addNameRange     '2.0.3',
+230 silly addNameRange     '2.0.4',
+230 silly addNameRange     '2.0.5',
+230 silly addNameRange     '2.0.6',
+230 silly addNameRange     '2.0.7',
+230 silly addNameRange     '2.0.8',
+230 silly addNameRange     '2.0.9',
+230 silly addNameRange     '2.1.0',
+230 silly addNameRange     '2.2.0',
+230 silly addNameRange     '2.2.1',
+230 silly addNameRange     '2.3.0',
+230 silly addNameRange     '2.3.1',
+230 silly addNameRange     '2.3.2',
+230 silly addNameRange     '2.3.3',
+230 silly addNameRange     '2.3.4',
+230 silly addNameRange     '2.3.5',
+230 silly addNameRange     '2.4.0',
+230 silly addNameRange     '2.5.0',
+230 silly addNameRange     '2.5.1',
+230 silly addNameRange     '2.6.0',
+230 silly addNameRange     '2.6.1',
+230 silly addNameRange     '2.6.2',
+230 silly addNameRange     '2.7.0' ] ]
+231 silly addNamed nan@2.3.5
+232 verbose addNamed "2.3.5" is a plain semver version for nan
+233 silly mapToRegistry name nan
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry data Result {
+236 silly mapToRegistry   raw: 'nan',
+236 silly mapToRegistry   scope: null,
+236 silly mapToRegistry   escapedName: 'nan',
+236 silly mapToRegistry   name: 'nan',
+236 silly mapToRegistry   rawSpec: '',
+236 silly mapToRegistry   spec: 'latest',
+236 silly mapToRegistry   type: 'tag' }
+237 silly mapToRegistry uri https://registry.npmjs.org/nan
+238 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+239 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+239 verbose addRemoteTarball   '822a0dc266290ce4cd3a12282ca3e7e364668a08' ]
+240 silly resolveWithNewModule bindings@1.2.1 checking installable status
+241 silly cache add args [ 'bindings@1.2.1', null ]
+242 verbose cache add spec bindings@1.2.1
+243 silly cache add parsed spec Result {
+243 silly cache add   raw: 'bindings@1.2.1',
+243 silly cache add   scope: null,
+243 silly cache add   escapedName: 'bindings',
+243 silly cache add   name: 'bindings',
+243 silly cache add   rawSpec: '1.2.1',
+243 silly cache add   spec: '1.2.1',
+243 silly cache add   type: 'version' }
+244 silly addNamed bindings@1.2.1
+245 verbose addNamed "1.2.1" is a plain semver version for bindings
+246 silly mapToRegistry name bindings
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'bindings',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   escapedName: 'bindings',
+249 silly mapToRegistry   name: 'bindings',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npmjs.org/bindings
+251 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+252 info retry fetch attempt 1 at 8:56:25 PM
+253 info attempt registry request try #1 at 8:56:25 PM
+254 http fetch GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.1.tgz
+255 info retry fetch attempt 1 at 8:56:25 PM
+256 info attempt registry request try #1 at 8:56:25 PM
+257 http fetch GET https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+258 verbose get https://registry.npmjs.org/bindings not expired, no request
+259 silly mapToRegistry name bindings
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry https://registry.npmjs.org/
+262 silly mapToRegistry data Result {
+262 silly mapToRegistry   raw: 'bindings',
+262 silly mapToRegistry   scope: null,
+262 silly mapToRegistry   escapedName: 'bindings',
+262 silly mapToRegistry   name: 'bindings',
+262 silly mapToRegistry   rawSpec: '',
+262 silly mapToRegistry   spec: 'latest',
+262 silly mapToRegistry   type: 'tag' }
+263 silly mapToRegistry uri https://registry.npmjs.org/bindings
+264 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+265 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+265 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+266 info retry fetch attempt 1 at 8:56:25 PM
+267 info attempt registry request try #1 at 8:56:25 PM
+268 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+269 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+270 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+271 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+272 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+273 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+274 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+275 silly cache afterAdd bindings@1.2.1
+276 verbose afterAdd /Users/omarmhmmd/.npm/bindings/1.2.1/package/package.json not in flight; writing
+277 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+278 verbose afterAdd /Users/omarmhmmd/.npm/bindings/1.2.1/package/package.json written
+279 silly fetchAndShaCheck shasum 822a0dc266290ce4cd3a12282ca3e7e364668a08
+280 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+281 verbose addTmpTarball already have metadata; skipping unpack for nan@2.3.5
+282 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+283 silly cache afterAdd nan@2.3.5
+284 verbose afterAdd /Users/omarmhmmd/.npm/nan/2.3.5/package/package.json not in flight; writing
+285 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+286 verbose afterAdd /Users/omarmhmmd/.npm/nan/2.3.5/package/package.json written
+287 http 200 https://registry.npmjs.org/underscore
+288 verbose headers { server: 'nginx/1.10.1',
+288 verbose headers   'content-type': 'application/json',
+288 verbose headers   'last-modified': 'Wed, 06 Sep 2017 07:02:32 GMT',
+288 verbose headers   etag: 'W/"59af9d88-af7d"',
+288 verbose headers   'content-encoding': 'gzip',
+288 verbose headers   'cache-control': 'max-age=300',
+288 verbose headers   'content-length': '7588',
+288 verbose headers   'accept-ranges': 'bytes',
+288 verbose headers   date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+288 verbose headers   via: '1.1 varnish',
+288 verbose headers   age: '92',
+288 verbose headers   connection: 'keep-alive',
+288 verbose headers   'x-served-by': 'cache-pao17440-PAO',
+288 verbose headers   'x-cache': 'HIT',
+288 verbose headers   'x-cache-hits': '1',
+288 verbose headers   'x-timer': 'S1505188586.632893,VS0,VE0',
+288 verbose headers   vary: 'Accept-Encoding, Accept' }
+289 silly get cb [ 200,
+289 silly get   { server: 'nginx/1.10.1',
+289 silly get     'content-type': 'application/json',
+289 silly get     'last-modified': 'Wed, 06 Sep 2017 07:02:32 GMT',
+289 silly get     etag: 'W/"59af9d88-af7d"',
+289 silly get     'content-encoding': 'gzip',
+289 silly get     'cache-control': 'max-age=300',
+289 silly get     'content-length': '7588',
+289 silly get     'accept-ranges': 'bytes',
+289 silly get     date: 'Tue, 12 Sep 2017 03:56:25 GMT',
+289 silly get     via: '1.1 varnish',
+289 silly get     age: '92',
+289 silly get     connection: 'keep-alive',
+289 silly get     'x-served-by': 'cache-pao17440-PAO',
+289 silly get     'x-cache': 'HIT',
+289 silly get     'x-cache-hits': '1',
+289 silly get     'x-timer': 'S1505188586.632893,VS0,VE0',
+289 silly get     vary: 'Accept-Encoding, Accept' } ]
+290 verbose get saving underscore to /Users/omarmhmmd/.npm/registry.npmjs.org/underscore/.cache.json
+291 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+292 silly resolveWithNewModule underscore@1.8.2 checking installable status
+293 silly cache add args [ 'underscore@1.8.2', null ]
+294 verbose cache add spec underscore@1.8.2
+295 silly cache add parsed spec Result {
+295 silly cache add   raw: 'underscore@1.8.2',
+295 silly cache add   scope: null,
+295 silly cache add   escapedName: 'underscore',
+295 silly cache add   name: 'underscore',
+295 silly cache add   rawSpec: '1.8.2',
+295 silly cache add   spec: '1.8.2',
+295 silly cache add   type: 'version' }
+296 silly addNamed underscore@1.8.2
+297 verbose addNamed "1.8.2" is a plain semver version for underscore
+298 silly mapToRegistry name underscore
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry data Result {
+301 silly mapToRegistry   raw: 'underscore',
+301 silly mapToRegistry   scope: null,
+301 silly mapToRegistry   escapedName: 'underscore',
+301 silly mapToRegistry   name: 'underscore',
+301 silly mapToRegistry   rawSpec: '',
+301 silly mapToRegistry   spec: 'latest',
+301 silly mapToRegistry   type: 'tag' }
+302 silly mapToRegistry uri https://registry.npmjs.org/underscore
+303 verbose addNameVersion registry:https://registry.npmjs.org/underscore not in flight; fetching
+304 verbose get https://registry.npmjs.org/underscore not expired, no request
+305 silly mapToRegistry name underscore
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry data Result {
+308 silly mapToRegistry   raw: 'underscore',
+308 silly mapToRegistry   scope: null,
+308 silly mapToRegistry   escapedName: 'underscore',
+308 silly mapToRegistry   name: 'underscore',
+308 silly mapToRegistry   rawSpec: '',
+308 silly mapToRegistry   spec: 'latest',
+308 silly mapToRegistry   type: 'tag' }
+309 silly mapToRegistry uri https://registry.npmjs.org/underscore
+310 verbose addRemoteTarball https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz not in flight; adding
+311 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz',
+311 verbose addRemoteTarball   '64df2eb590899de950782f3735190ba42ebf311d' ]
+312 info retry fetch attempt 1 at 8:56:25 PM
+313 info attempt registry request try #1 at 8:56:25 PM
+314 http fetch GET https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+315 http fetch 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.9.1.tgz
+316 http fetch 200 https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+317 http 200 https://registry.npmjs.org/repl
+318 verbose headers { server: 'nginx/1.10.1',
+318 verbose headers   'content-type': 'application/json',
+318 verbose headers   'last-modified': 'Thu, 24 Aug 2017 03:01:39 GMT',
+318 verbose headers   etag: 'W/"599e4193-d41"',
+318 verbose headers   'content-encoding': 'gzip',
+318 verbose headers   'cache-control': 'max-age=300',
+318 verbose headers   'content-length': '866',
+318 verbose headers   'accept-ranges': 'bytes',
+318 verbose headers   date: 'Tue, 12 Sep 2017 03:56:26 GMT',
+318 verbose headers   via: '1.1 varnish',
+318 verbose headers   age: '0',
+318 verbose headers   connection: 'keep-alive',
+318 verbose headers   'x-served-by': 'cache-pao17429-PAO',
+318 verbose headers   'x-cache': 'MISS',
+318 verbose headers   'x-cache-hits': '0',
+318 verbose headers   'x-timer': 'S1505188586.673603,VS0,VE332',
+318 verbose headers   vary: 'Accept-Encoding, Accept' }
+319 silly get cb [ 200,
+319 silly get   { server: 'nginx/1.10.1',
+319 silly get     'content-type': 'application/json',
+319 silly get     'last-modified': 'Thu, 24 Aug 2017 03:01:39 GMT',
+319 silly get     etag: 'W/"599e4193-d41"',
+319 silly get     'content-encoding': 'gzip',
+319 silly get     'cache-control': 'max-age=300',
+319 silly get     'content-length': '866',
+319 silly get     'accept-ranges': 'bytes',
+319 silly get     date: 'Tue, 12 Sep 2017 03:56:26 GMT',
+319 silly get     via: '1.1 varnish',
+319 silly get     age: '0',
+319 silly get     connection: 'keep-alive',
+319 silly get     'x-served-by': 'cache-pao17429-PAO',
+319 silly get     'x-cache': 'MISS',
+319 silly get     'x-cache-hits': '0',
+319 silly get     'x-timer': 'S1505188586.673603,VS0,VE332',
+319 silly get     vary: 'Accept-Encoding, Accept' } ]
+320 verbose get saving repl to /Users/omarmhmmd/.npm/registry.npmjs.org/repl/.cache.json
+321 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+322 silly resolveWithNewModule repl@0.1.3 checking installable status
+323 silly cache add args [ 'repl@0.1.3', null ]
+324 verbose cache add spec repl@0.1.3
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'repl@0.1.3',
+325 silly cache add   scope: null,
+325 silly cache add   escapedName: 'repl',
+325 silly cache add   name: 'repl',
+325 silly cache add   rawSpec: '0.1.3',
+325 silly cache add   spec: '0.1.3',
+325 silly cache add   type: 'version' }
+326 silly addNamed repl@0.1.3
+327 verbose addNamed "0.1.3" is a plain semver version for repl
+328 silly mapToRegistry name repl
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry https://registry.npmjs.org/
+331 silly mapToRegistry data Result {
+331 silly mapToRegistry   raw: 'repl',
+331 silly mapToRegistry   scope: null,
+331 silly mapToRegistry   escapedName: 'repl',
+331 silly mapToRegistry   name: 'repl',
+331 silly mapToRegistry   rawSpec: '',
+331 silly mapToRegistry   spec: 'latest',
+331 silly mapToRegistry   type: 'tag' }
+332 silly mapToRegistry uri https://registry.npmjs.org/repl
+333 verbose addNameVersion registry:https://registry.npmjs.org/repl not in flight; fetching
+334 verbose get https://registry.npmjs.org/repl not expired, no request
+335 silly mapToRegistry name repl
+336 silly mapToRegistry using default registry
+337 silly mapToRegistry registry https://registry.npmjs.org/
+338 silly mapToRegistry data Result {
+338 silly mapToRegistry   raw: 'repl',
+338 silly mapToRegistry   scope: null,
+338 silly mapToRegistry   escapedName: 'repl',
+338 silly mapToRegistry   name: 'repl',
+338 silly mapToRegistry   rawSpec: '',
+338 silly mapToRegistry   spec: 'latest',
+338 silly mapToRegistry   type: 'tag' }
+339 silly mapToRegistry uri https://registry.npmjs.org/repl
+340 verbose addRemoteTarball https://registry.npmjs.org/repl/-/repl-0.1.3.tgz not in flight; adding
+341 verbose addRemoteTarball [ 'https://registry.npmjs.org/repl/-/repl-0.1.3.tgz',
+341 verbose addRemoteTarball   '2f05d42b0c88b43d05ccbda10ed14aeff5699b60' ]
+342 info retry fetch attempt 1 at 8:56:26 PM
+343 info attempt registry request try #1 at 8:56:26 PM
+344 http fetch GET https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+345 http fetch 200 https://registry.npmjs.org/repl/-/repl-0.1.3.tgz
+346 silly fetchAndShaCheck shasum 2f05d42b0c88b43d05ccbda10ed14aeff5699b60
+347 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/repl/-/repl-0.1.3.tgz not in flight; adding
+348 verbose addTmpTarball already have metadata; skipping unpack for repl@0.1.3
+349 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+350 silly cache afterAdd repl@0.1.3
+351 verbose afterAdd /Users/omarmhmmd/.npm/repl/0.1.3/package/package.json not in flight; writing
+352 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+353 verbose afterAdd /Users/omarmhmmd/.npm/repl/0.1.3/package/package.json written
+354 silly fetchAndShaCheck shasum 64df2eb590899de950782f3735190ba42ebf311d
+355 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/underscore/-/underscore-1.8.2.tgz not in flight; adding
+356 verbose addTmpTarball already have metadata; skipping unpack for underscore@1.8.2
+357 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+358 silly cache afterAdd underscore@1.8.2
+359 verbose afterAdd /Users/omarmhmmd/.npm/underscore/1.8.2/package/package.json not in flight; writing
+360 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+361 verbose afterAdd /Users/omarmhmmd/.npm/underscore/1.8.2/package/package.json written
+362 silly fetchAndShaCheck shasum c458d02200f460d064a79cb6ab1ee6e2c9ca1c31
+363 verbose addTmpTarball /var/folders/87/vszv_0pn5fd4vmzr_v4fy87r0000gn/T/npm-33139-8ad710b9/registry.npmjs.org/coffee-script/-/coffee-script-1.9.1.tgz not in flight; adding
+364 verbose addTmpTarball already have metadata; skipping unpack for coffee-script@1.9.1
+365 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+366 silly cache afterAdd coffee-script@1.9.1
+367 verbose afterAdd /Users/omarmhmmd/.npm/coffee-script/1.9.1/package/package.json not in flight; writing
+368 verbose correctMkdir /Users/omarmhmmd/.npm correctMkdir not in flight; initializing
+369 verbose afterAdd /Users/omarmhmmd/.npm/coffee-script/1.9.1/package/package.json written
+370 silly loadAllDepsIntoIdealTree Finishing
+371 silly loadIdealTree Finishing
+372 silly currentTree qiblah
+372 silly currentTree ├── debug@2.6.8
+372 silly currentTree ├─┬ get-json@1.0.0
+372 silly currentTree │ ├── is-node@0.0.0
+372 silly currentTree │ └── jsonp@0.0.4
+372 silly currentTree ├── is-node@1.0.2
+372 silly currentTree ├── jsonp@0.2.1
+372 silly currentTree ├── ms@2.0.0
+372 silly currentTree └── phin@2.4.18
+373 silly idealTree qiblah
+373 silly idealTree ├── bindings@1.2.1
+373 silly idealTree ├── coffee-script@1.9.1
+373 silly idealTree ├── debug@2.6.8
+373 silly idealTree ├─┬ get-json@1.0.0
+373 silly idealTree │ ├── is-node@0.0.0
+373 silly idealTree │ └── jsonp@0.0.4
+373 silly idealTree ├── i2c@0.2.3
+373 silly idealTree ├── is-node@1.0.2
+373 silly idealTree ├── jsonp@0.2.1
+373 silly idealTree ├── lsm303@0.3.0
+373 silly idealTree ├── ms@2.0.0
+373 silly idealTree ├── nan@2.3.5
+373 silly idealTree ├── phin@2.4.18
+373 silly idealTree ├── repl@0.1.3
+373 silly idealTree └── underscore@1.8.2
+374 silly generateActionsToTake Starting
+375 silly install generateActionsToTake
+376 silly generateActionsToTake Finishing
+377 silly diffTrees action count 7
+378 silly diffTrees add bindings@1.2.1
+379 silly diffTrees add coffee-script@1.9.1
+380 silly diffTrees add nan@2.3.5
+381 silly diffTrees add repl@0.1.3
+382 silly diffTrees add underscore@1.8.2
+383 silly diffTrees add i2c@0.2.3
+384 silly diffTrees add lsm303@0.3.0
+385 silly decomposeActions action count 56
+386 silly decomposeActions fetch bindings@1.2.1
+387 silly decomposeActions extract bindings@1.2.1
+388 silly decomposeActions test bindings@1.2.1
+389 silly decomposeActions preinstall bindings@1.2.1
+390 silly decomposeActions build bindings@1.2.1
+391 silly decomposeActions install bindings@1.2.1
+392 silly decomposeActions postinstall bindings@1.2.1
+393 silly decomposeActions finalize bindings@1.2.1
+394 silly decomposeActions fetch coffee-script@1.9.1
+395 silly decomposeActions extract coffee-script@1.9.1
+396 silly decomposeActions test coffee-script@1.9.1
+397 silly decomposeActions preinstall coffee-script@1.9.1
+398 silly decomposeActions build coffee-script@1.9.1
+399 silly decomposeActions install coffee-script@1.9.1
+400 silly decomposeActions postinstall coffee-script@1.9.1
+401 silly decomposeActions finalize coffee-script@1.9.1
+402 silly decomposeActions fetch nan@2.3.5
+403 silly decomposeActions extract nan@2.3.5
+404 silly decomposeActions test nan@2.3.5
+405 silly decomposeActions preinstall nan@2.3.5
+406 silly decomposeActions build nan@2.3.5
+407 silly decomposeActions install nan@2.3.5
+408 silly decomposeActions postinstall nan@2.3.5
+409 silly decomposeActions finalize nan@2.3.5
+410 silly decomposeActions fetch repl@0.1.3
+411 silly decomposeActions extract repl@0.1.3
+412 silly decomposeActions test repl@0.1.3
+413 silly decomposeActions preinstall repl@0.1.3
+414 silly decomposeActions build repl@0.1.3
+415 silly decomposeActions install repl@0.1.3
+416 silly decomposeActions postinstall repl@0.1.3
+417 silly decomposeActions finalize repl@0.1.3
+418 silly decomposeActions fetch underscore@1.8.2
+419 silly decomposeActions extract underscore@1.8.2
+420 silly decomposeActions test underscore@1.8.2
+421 silly decomposeActions preinstall underscore@1.8.2
+422 silly decomposeActions build underscore@1.8.2
+423 silly decomposeActions install underscore@1.8.2
+424 silly decomposeActions postinstall underscore@1.8.2
+425 silly decomposeActions finalize underscore@1.8.2
+426 silly decomposeActions fetch i2c@0.2.3
+427 silly decomposeActions extract i2c@0.2.3
+428 silly decomposeActions test i2c@0.2.3
+429 silly decomposeActions preinstall i2c@0.2.3
+430 silly decomposeActions build i2c@0.2.3
+431 silly decomposeActions install i2c@0.2.3
+432 silly decomposeActions postinstall i2c@0.2.3
+433 silly decomposeActions finalize i2c@0.2.3
+434 silly decomposeActions fetch lsm303@0.3.0
+435 silly decomposeActions extract lsm303@0.3.0
+436 silly decomposeActions test lsm303@0.3.0
+437 silly decomposeActions preinstall lsm303@0.3.0
+438 silly decomposeActions build lsm303@0.3.0
+439 silly decomposeActions install lsm303@0.3.0
+440 silly decomposeActions postinstall lsm303@0.3.0
+441 silly decomposeActions finalize lsm303@0.3.0
+442 silly runTopLevelLifecycles Starting
+443 silly executeActions Starting
+444 silly install executeActions
+445 silly doSerial global-install 0
+446 silly doParallel fetch 7
+447 verbose correctMkdir /Users/omarmhmmd/.npm/_locks correctMkdir not in flight; initializing
+448 verbose lock using /Users/omarmhmmd/.npm/_locks/staging-2fffdcadb61357a1.lock for /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging
+449 silly doParallel extract 7
+450 silly extract bindings@1.2.1
+451 silly extract coffee-script@1.9.1
+452 silly extract nan@2.3.5
+453 silly extract repl@0.1.3
+454 silly extract underscore@1.8.2
+455 silly extract i2c@0.2.3
+456 silly extract lsm303@0.3.0
+457 verbose unbuild node_modules/.staging/bindings-6bd563c9
+458 verbose unbuild node_modules/.staging/nan-8900bebc
+459 verbose unbuild node_modules/.staging/repl-e36ab78f
+460 verbose unbuild node_modules/.staging/underscore-6e7d54b0
+461 verbose unbuild node_modules/.staging/i2c-ca18caba
+462 verbose unbuild node_modules/.staging/lsm303-47a5ee63
+463 verbose unbuild node_modules/.staging/coffee-script-32bf445f
+464 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9 is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+465 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9
+466 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+467 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc
+468 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+469 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f
+470 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0 is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+471 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0
+472 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+473 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba
+474 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63 is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+475 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63
+476 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f is being purged from base /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+477 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f
+478 verbose tar unpack /Users/omarmhmmd/.npm/bindings/1.2.1/package.tgz
+479 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9
+480 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9 is being purged
+481 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9
+482 verbose tar unpack /Users/omarmhmmd/.npm/nan/2.3.5/package.tgz
+483 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc
+484 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc is being purged
+485 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc
+486 verbose tar unpack /Users/omarmhmmd/.npm/repl/0.1.3/package.tgz
+487 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f
+488 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f is being purged
+489 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f
+490 verbose tar unpack /Users/omarmhmmd/.npm/underscore/1.8.2/package.tgz
+491 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0
+492 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0 is being purged
+493 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0
+494 verbose tar unpack /Users/omarmhmmd/.npm/i2c/0.2.3/package.tgz
+495 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba
+496 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba is being purged
+497 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba
+498 verbose tar unpack /Users/omarmhmmd/.npm/lsm303/0.3.0/package.tgz
+499 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63
+500 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63 is being purged
+501 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63
+502 verbose tar unpack /Users/omarmhmmd/.npm/coffee-script/1.9.1/package.tgz
+503 verbose tar unpacking to /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f
+504 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f is being purged
+505 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f
+506 silly gunzTarPerm modes [ '755', '644' ]
+507 silly gunzTarPerm modes [ '755', '644' ]
+508 silly gunzTarPerm modes [ '755', '644' ]
+509 silly gunzTarPerm modes [ '755', '644' ]
+510 silly gunzTarPerm modes [ '755', '644' ]
+511 silly gunzTarPerm modes [ '755', '644' ]
+512 silly gunzTarPerm modes [ '755', '644' ]
+513 silly gunzTarPerm extractEntry package.json
+514 silly gunzTarPerm extractEntry package.json
+515 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+516 silly gunzTarPerm extractEntry test.js
+517 silly gunzTarPerm extractEntry package.json
+518 silly gunzTarPerm extractEntry package.json
+519 silly gunzTarPerm extractEntry package.json
+520 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+521 silly gunzTarPerm extractEntry package.json
+522 silly gunzTarPerm extractEntry README.md
+523 silly gunzTarPerm extractEntry bindings.js
+524 silly gunzTarPerm extractEntry README.md
+525 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+526 silly gunzTarPerm extractEntry README.md
+527 silly gunzTarPerm extractEntry package.json
+528 silly gunzTarPerm extractEntry README.md
+529 silly gunzTarPerm extractEntry LICENSE
+530 silly gunzTarPerm extractEntry .npmignore
+531 silly gunzTarPerm extractEntry README.md
+532 silly gunzTarPerm extractEntry include_dirs.js
+533 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+534 silly gunzTarPerm extractEntry .npmignore
+535 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+536 silly gunzTarPerm extractEntry README.md
+537 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+538 silly gunzTarPerm extractEntry .npmignore
+539 silly gunzTarPerm extractEntry README
+540 silly gunzTarPerm extractEntry LICENSE
+541 silly gunzTarPerm extractEntry main.js
+542 silly gunzTarPerm extractEntry index.js
+543 silly gunzTarPerm extractEntry lib/repl.js
+544 silly gunzTarPerm extractEntry underscore.js
+545 silly gunzTarPerm extractEntry underscore-min.js
+546 silly gunzTarPerm extractEntry underscore-min.map
+547 silly gunzTarPerm extractEntry nan_converters.h
+548 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+549 silly gunzTarPerm extractEntry LICENSE.md
+550 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+551 silly gunzTarPerm extractEntry doc/node_misc.md
+552 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+553 silly gunzTarPerm extractEntry LICENSE
+554 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+555 silly gunzTarPerm extractEntry index.js
+556 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+557 silly gunzTarPerm extractEntry README.md
+558 silly gunzTarPerm extractEntry LICENSE
+559 silly gunzTarPerm extractEntry doc/asyncworker.md
+560 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+561 silly gunzTarPerm extractEntry binding.gyp
+562 silly gunzTarPerm extractEntry examples/accelerometer/accel.coffee
+563 silly gunzTarPerm extractEntry register.js
+564 silly gunzTarPerm extractEntry repl.js
+565 silly gunzTarPerm extractEntry example/cal.js
+566 silly gunzTarPerm modified mode [ 'example/cal.js', 436, 420 ]
+567 silly gunzTarPerm extractEntry example/example1.js
+568 silly gunzTarPerm modified mode [ 'example/example1.js', 436, 420 ]
+569 silly gunzTarPerm extractEntry doc/callback.md
+570 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+571 silly gunzTarPerm extractEntry doc/converters.md
+572 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+573 silly gunzTarPerm extractEntry examples/blinkm/blinkm.coffee
+574 silly gunzTarPerm extractEntry lib/i2c.coffee
+575 silly gunzTarPerm extractEntry bin/cake
+576 silly gunzTarPerm extractEntry bin/coffee
+577 silly gunzTarPerm extractEntry example/readheading.js
+578 silly gunzTarPerm modified mode [ 'example/readheading.js', 436, 420 ]
+579 silly gunzTarPerm extractEntry lib/accelerometer.js
+580 silly gunzTarPerm modified mode [ 'lib/accelerometer.js', 436, 420 ]
+581 silly gunzTarPerm extractEntry doc/errors.md
+582 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+583 silly gunzTarPerm extractEntry doc/maybe_types.md
+584 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+585 silly gunzTarPerm extractEntry src/i2c-dev.c
+586 silly gunzTarPerm extractEntry bower.json
+587 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+588 silly gunzTarPerm extractEntry lib/lsm303.js
+589 silly gunzTarPerm modified mode [ 'lib/lsm303.js', 436, 420 ]
+590 silly gunzTarPerm extractEntry doc/methods.md
+591 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+592 silly gunzTarPerm extractEntry doc/new.md
+593 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+594 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9/node_modules is being purged
+595 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9/node_modules
+596 silly gunzTarPerm extractEntry src/i2c-dev.h
+597 silly gunzTarPerm extractEntry src/i2c.cc
+598 silly gunzTarPerm extractEntry lib/magnetometer.js
+599 silly gunzTarPerm modified mode [ 'lib/magnetometer.js', 436, 420 ]
+600 silly gunzTarPerm extractEntry lib/util.js
+601 silly gunzTarPerm modified mode [ 'lib/util.js', 436, 420 ]
+602 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+603 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+604 silly gunzTarPerm extractEntry doc/buffers.md
+605 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+606 silly gunzTarPerm extractEntry doc/object_wrappers.md
+607 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+608 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+609 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+610 silly gunzTarPerm extractEntry doc/persistent.md
+611 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+612 silly gunzTarPerm extractEntry doc/scopes.md
+613 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+614 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f/node_modules is being purged
+615 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f/node_modules
+616 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+617 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+618 silly gunzTarPerm extractEntry doc/script.md
+619 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+620 silly gunzTarPerm extractEntry doc/string_bytes.md
+621 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+622 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+623 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+624 silly gunzTarPerm extractEntry doc/v8_internals.md
+625 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+626 silly gunzTarPerm extractEntry doc/v8_misc.md
+627 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+628 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0/node_modules is being purged
+629 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0/node_modules
+630 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+631 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+632 silly gunzTarPerm extractEntry nan.h
+633 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+634 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+635 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+636 silly gunzTarPerm extractEntry nan_callbacks.h
+637 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+638 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+639 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+640 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+641 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+642 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+643 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+644 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+645 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+646 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+647 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+648 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+649 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+650 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+651 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+652 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+653 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+654 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+655 silly gunzTarPerm extractEntry CNAME
+656 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+657 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+658 silly gunzTarPerm extractEntry nan_new.h
+659 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+660 silly gunzTarPerm extractEntry CONTRIBUTING.md
+661 silly gunzTarPerm extractEntry nan_object_wrap.h
+662 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+663 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+664 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+665 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63/node_modules is being purged
+666 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63/node_modules
+667 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba/node_modules is being purged
+668 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba/node_modules
+669 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+670 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+671 silly gunzTarPerm extractEntry nan_string_bytes.h
+672 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+673 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+674 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+675 silly gunzTarPerm extractEntry nan_weak.h
+676 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+677 silly gunzTarPerm extractEntry CHANGELOG.md
+678 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+679 silly gunzTarPerm extractEntry tools/package.json
+680 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+681 silly gunzTarPerm extractEntry tools/README.md
+682 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+683 silly gunzTarPerm extractEntry tools/1to2.js
+684 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+685 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f/node_modules is being purged
+686 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f/node_modules
+687 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc/node_modules is being purged
+688 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc/node_modules
+689 silly doParallel preinstall 7
+690 silly preinstall bindings@1.2.1 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9
+691 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+692 silly preinstall coffee-script@1.9.1 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f
+693 info lifecycle coffee-script@1.9.1~preinstall: coffee-script@1.9.1
+694 silly preinstall nan@2.3.5 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc
+695 info lifecycle nan@2.3.5~preinstall: nan@2.3.5
+696 silly preinstall repl@0.1.3 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f
+697 info lifecycle repl@0.1.3~preinstall: repl@0.1.3
+698 silly preinstall underscore@1.8.2 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0
+699 info lifecycle underscore@1.8.2~preinstall: underscore@1.8.2
+700 silly preinstall i2c@0.2.3 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba
+701 info lifecycle i2c@0.2.3~preinstall: i2c@0.2.3
+702 silly preinstall lsm303@0.3.0 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/lsm303-47a5ee63
+703 info lifecycle lsm303@0.3.0~preinstall: lsm303@0.3.0
+704 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+705 silly lifecycle coffee-script@1.9.1~preinstall: no script for preinstall, continuing
+706 silly lifecycle nan@2.3.5~preinstall: no script for preinstall, continuing
+707 silly lifecycle repl@0.1.3~preinstall: no script for preinstall, continuing
+708 silly lifecycle underscore@1.8.2~preinstall: no script for preinstall, continuing
+709 silly lifecycle i2c@0.2.3~preinstall: no script for preinstall, continuing
+710 silly lifecycle lsm303@0.3.0~preinstall: no script for preinstall, continuing
+711 silly doReverseSerial remove 0
+712 silly doSerial move 0
+713 silly doSerial finalize 7
+714 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/bindings
+715 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/coffee-script
+716 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/nan
+717 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/repl
+718 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/underscore
+719 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/i2c
+720 silly finalize /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/lsm303
+721 silly doSerial build 7
+722 silly build bindings@1.2.1
+723 info linkStuff bindings@1.2.1
+724 silly linkStuff bindings@1.2.1 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+725 verbose linkBins bindings@1.2.1
+726 verbose linkMans bindings@1.2.1
+727 silly build coffee-script@1.9.1
+728 info linkStuff coffee-script@1.9.1
+729 silly linkStuff coffee-script@1.9.1 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+730 verbose linkBins coffee-script@1.9.1
+731 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+731 verbose link bins   '/Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.bin',
+731 verbose link bins   false ]
+732 verbose linkMans coffee-script@1.9.1
+733 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.bin/coffee is being purged
+734 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.bin/coffee
+735 silly gentlyRm /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.bin/cake is being purged
+736 verbose gentlyRm don't care about contents; nuking /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.bin/cake
+737 silly build nan@2.3.5
+738 info linkStuff nan@2.3.5
+739 silly linkStuff nan@2.3.5 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+740 verbose linkBins nan@2.3.5
+741 verbose linkMans nan@2.3.5
+742 silly build repl@0.1.3
+743 info linkStuff repl@0.1.3
+744 silly linkStuff repl@0.1.3 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+745 verbose linkBins repl@0.1.3
+746 verbose linkMans repl@0.1.3
+747 silly build underscore@1.8.2
+748 info linkStuff underscore@1.8.2
+749 silly linkStuff underscore@1.8.2 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+750 verbose linkBins underscore@1.8.2
+751 verbose linkMans underscore@1.8.2
+752 silly build i2c@0.2.3
+753 info linkStuff i2c@0.2.3
+754 silly linkStuff i2c@0.2.3 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+755 verbose linkBins i2c@0.2.3
+756 verbose linkMans i2c@0.2.3
+757 silly build lsm303@0.3.0
+758 info linkStuff lsm303@0.3.0
+759 silly linkStuff lsm303@0.3.0 has /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules as its parent node_modules
+760 verbose linkBins lsm303@0.3.0
+761 verbose linkMans lsm303@0.3.0
+762 silly doSerial global-link 0
+763 silly doParallel update-linked 0
+764 silly doSerial install 7
+765 silly install bindings@1.2.1 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/bindings-6bd563c9
+766 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+767 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+768 silly install coffee-script@1.9.1 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/coffee-script-32bf445f
+769 info lifecycle coffee-script@1.9.1~install: coffee-script@1.9.1
+770 silly lifecycle coffee-script@1.9.1~install: no script for install, continuing
+771 silly install nan@2.3.5 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/nan-8900bebc
+772 info lifecycle nan@2.3.5~install: nan@2.3.5
+773 silly lifecycle nan@2.3.5~install: no script for install, continuing
+774 silly install repl@0.1.3 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/repl-e36ab78f
+775 info lifecycle repl@0.1.3~install: repl@0.1.3
+776 silly lifecycle repl@0.1.3~install: no script for install, continuing
+777 silly install underscore@1.8.2 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/underscore-6e7d54b0
+778 info lifecycle underscore@1.8.2~install: underscore@1.8.2
+779 silly lifecycle underscore@1.8.2~install: no script for install, continuing
+780 silly install i2c@0.2.3 /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging/i2c-ca18caba
+781 info lifecycle i2c@0.2.3~install: i2c@0.2.3
+782 verbose lifecycle i2c@0.2.3~install: unsafe-perm in lifecycle true
+783 verbose lifecycle i2c@0.2.3~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/i2c/node_modules/.bin:/Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.bin:/Users/omarmhmmd/.rvm/gems/ruby-2.3.0/bin:/Users/omarmhmmd/.rvm/gems/ruby-2.3.0@global/bin:/Users/omarmhmmd/.rvm/rubies/ruby-2.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/omarmhmmd/.rvm/gems/ruby-2.3.0/bin:/Users/omarmhmmd/.rvm/gems/ruby-2.3.0@global/bin:/Users/omarmhmmd/.rvm/rubies/ruby-2.3.0/bin:/Users/omarmhmmd/.rvm/bin:/Users/omarmhmmd/.rvm/bin
+784 verbose lifecycle i2c@0.2.3~install: CWD: /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/i2c
+785 silly lifecycle i2c@0.2.3~install: Args: [ '-c', 'node-gyp rebuild' ]
+786 silly lifecycle i2c@0.2.3~install: Returned: code: 1  signal: null
+787 info lifecycle i2c@0.2.3~install: Failed to exec install script
+788 verbose unlock done using /Users/omarmhmmd/.npm/_locks/staging-2fffdcadb61357a1.lock for /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/node_modules/.staging
+789 silly rollbackFailedOptional Starting
+790 silly rollbackFailedOptional Finishing
+791 silly runTopLevelLifecycles Finishing
+792 silly install printInstalled
+793 warn enoent ENOENT: no such file or directory, open '/Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/package.json'
+794 verbose enoent ENOENT: no such file or directory, open '/Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah/package.json'
+794 verbose enoent This is most likely not a problem with npm itself
+794 verbose enoent and is related to npm not being able to find a file.
+795 warn qiblah No description
+796 verbose If you need help, you may report this error at:
+796 verbose     <https://github.com/npm/npm/issues>
+797 warn qiblah No repository field.
+798 verbose If you need help, you may report this error at:
+798 verbose     <https://github.com/npm/npm/issues>
+799 warn qiblah No README data
+800 verbose If you need help, you may report this error at:
+800 verbose     <https://github.com/npm/npm/issues>
+801 warn qiblah No license field.
+802 verbose If you need help, you may report this error at:
+802 verbose     <https://github.com/npm/npm/issues>
+803 verbose stack Error: i2c@0.2.3 install: `node-gyp rebuild`
+803 verbose stack Exit status 1
+803 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+803 verbose stack     at emitTwo (events.js:106:13)
+803 verbose stack     at EventEmitter.emit (events.js:191:7)
+803 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+803 verbose stack     at emitTwo (events.js:106:13)
+803 verbose stack     at ChildProcess.emit (events.js:191:7)
+803 verbose stack     at maybeClose (internal/child_process.js:920:16)
+803 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+804 verbose pkgid i2c@0.2.3
+805 verbose cwd /Users/omarmhmmd/Desktop/School/Fall2017/ART173/project001/qiblah
+806 error Darwin 16.6.0
+807 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "lsm303"
+808 error node v6.11.3
+809 error npm  v3.10.10
+810 error code ELIFECYCLE
+811 error i2c@0.2.3 install: `node-gyp rebuild`
+811 error Exit status 1
+812 error Failed at the i2c@0.2.3 install script 'node-gyp rebuild'.
+812 error Make sure you have the latest version of node.js and npm installed.
+812 error If you do, this is most likely a problem with the i2c package,
+812 error not with npm itself.
+812 error Tell the author that this fails on your system:
+812 error     node-gyp rebuild
+812 error You can get information on how to open an issue for this project with:
+812 error     npm bugs i2c
+812 error Or if that isn't available, you can get their info via:
+812 error     npm owner ls i2c
+812 error There is likely additional logging output above.
+813 verbose exit [ 1, true ]

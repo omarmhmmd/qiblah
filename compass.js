@@ -1,4 +1,4 @@
-var five = require("johnny-five");
+/*var five = require("johnny-five");
 var board = new five.Board();
 
 board.on("ready", function() {
@@ -19,9 +19,9 @@ board.on("ready", function() {
     console.log("  bearing : ", this.bearing.name);
     console.log("--------------------------------------");
   });
-});
+});*/
 
-/*var lsm303 = require('lsm303');
+var lsm303 = require('lsm303');
 var ls  = new lsm303();
 
 var headingTemp = {};
@@ -38,7 +38,7 @@ var board = new five.Board({
 
 // Use this setOffset function to enter in resultant x, y, z
 // values from calibration
-mag.setOffset(-26, 44, 0);
+
 
 var magIntervalObj = board.on("ready", function() {
   setInterval(function() {
@@ -67,4 +67,4 @@ var magIntervalObj = board.on("ready", function() {
 		}
 		console.log(headingTemp);
   }, 500);
-});*/
+});

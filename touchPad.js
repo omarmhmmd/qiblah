@@ -21,13 +21,16 @@ var pressurePad = boardDuino.on("ready", function() {
 
     // set the led's brightness based on force
     // applied to force sensitive resistor
-    console.log(this.scaled);
 
     if (this.scaled > 200) {
+      console.log(this.scaled + " light");
       led.on();
     }
-    else
+    else {
       led.off();
+      console.log(this.scaled);
+
+    }
 
   });
 });
