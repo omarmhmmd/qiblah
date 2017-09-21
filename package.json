@@ -1,0 +1,34 @@
+{
+  "name": "qiblahcode",
+  "version": "1.0.0",
+  "description": "neopixels",
+  "main": "compass.js",
+  "dependencies": {
+    "aplay": "^1.1.0",
+    "firmata": "^0.17.0",
+    "get-json": "^1.0.0",
+    "is-node": "^1.0.2",
+    "johnny-five": "^0.11.6",
+    "jsonp": "^0.2.1",
+    "lsm303": "^0.3.0",
+    "node-aplay": "^1.0.3",
+    "node-omxplayer": "^0.6.1",
+    "node-pixel": "^0.9.3",
+    "nodebots-interchange": "^1.1.6",
+    "phin": "^2.4.18",
+    "raspi-io": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "okay"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "okay"
+  ],
+  "author": "omar",
+  "license": "UNLICENSED"
+}

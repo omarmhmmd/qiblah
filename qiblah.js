@@ -12,6 +12,7 @@ var mecca = {
 };
 
 var bearing;
+var finalBearing;
 
 getJSON('http://ip-api.com/json', function(error, data) {
   //console.log(JSON.stringify(data, null, 2));
@@ -20,12 +21,13 @@ getJSON('http://ip-api.com/json', function(error, data) {
   console.log("Lat: " + userLat);
   userLon = data.lon
   console.log("Lon: " + userLon);
-  var final = getBearing(toRadians(userLat), toRadians(userLon), mecca.lat, mecca.lon);
-  if (final < 0) {
-    console.log("Bearing: " + final + " / West of North");
+  finalBearing = getBearing(toRadians(userLat), toRadians(userLon), mecca.lat, mecca.lon);
+  module.exports.bearing = finalBearing;
+  if (finalBearing < 0) {
+    console.log("Bearing: " + finalBearing + " / West of North");
   }
   else {
-    console.log("Bearing: " + final + " / East of North");
+    console.log("Bearing: " + finalBearing + " / East of North");
   }
 });
 
