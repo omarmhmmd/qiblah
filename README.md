@@ -1,3 +1,3 @@
 # qiblah
 
-Interactive Islamic Prayer Rug
+Interactive islamic prayer object, built with a Raspberry Pi and node.js
